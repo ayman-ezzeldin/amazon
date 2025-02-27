@@ -23,6 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    // we could add className="mdl-js" to avoid Hydration errors
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
